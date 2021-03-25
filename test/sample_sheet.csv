@@ -1,0 +1,11 @@
+group,relpicate,fastq_1,fastq_2,strandedness
+control,1,/data/genomics/Jun/rnaseq/monkey_studies/20-NOVO-011/fastq_small/A01_R1.fastq.gz,/data/genomics/Jun/rnaseq/monkey_studies/20-NOVO-011/fastq_small/A01_R2.fastq.gz,reverse
+control,2,/data/genomics/Jun/rnaseq/monkey_studies/20-NOVO-011/fastq_small/A02_R1.fastq.gz,/data/genomics/Jun/rnaseq/monkey_studies/20-NOVO-011/fastq_small/A02_R2.fastq.gz,reverse
+control,3,/data/genomics/Jun/rnaseq/monkey_studies/20-NOVO-011/fastq_small/A03_R1.fastq.gz,/data/genomics/Jun/rnaseq/monkey_studies/20-NOVO-011/fastq_small/A03_R2.fastq.gz,reverse
+control,4,/data/genomics/Jun/rnaseq/monkey_studies/20-NOVO-011/fastq_small/A04_R1.fastq.gz,/data/genomics/Jun/rnaseq/monkey_studies/20-NOVO-011/fastq_small/A04_R2.fastq.gz,reverse
+control,5,/data/genomics/Jun/rnaseq/monkey_studies/20-NOVO-011/fastq_small/A05_R1.fastq.gz,/data/genomics/Jun/rnaseq/monkey_studies/20-NOVO-011/fastq_small/A05_R2.fastq.gz,reverse
+treat,1,/data/genomics/Jun/rnaseq/monkey_studies/20-NOVO-011/fastq_small/A06_R1.fastq.gz,/data/genomics/Jun/rnaseq/monkey_studies/20-NOVO-011/fastq_small/A06_R2.fastq.gz,reverse
+treat,2,/data/genomics/Jun/rnaseq/monkey_studies/20-NOVO-011/fastq_small/A07_R1.fastq.gz,/data/genomics/Jun/rnaseq/monkey_studies/20-NOVO-011/fastq_small/A07_R2.fastq.gz,reverse
+treat,3,/data/genomics/Jun/rnaseq/monkey_studies/20-NOVO-011/fastq_small/A08_R1.fastq.gz,/data/genomics/Jun/rnaseq/monkey_studies/20-NOVO-011/fastq_small/A08_R2.fastq.gz,reverse
+treat,4,/data/genomics/Jun/rnaseq/monkey_studies/20-NOVO-011/fastq_small/A09_R1.fastq.gz,/data/genomics/Jun/rnaseq/monkey_studies/20-NOVO-011/fastq_small/A09_R2.fastq.gz,reverse
+treat,5,/data/genomics/Jun/rnaseq/monkey_studies/20-NOVO-011/fastq_small/A10_R1.fastq.gz,/data/genomics/Jun/rnaseq/monkey_studies/20-NOVO-011/fastq_small/A10_R2.fastq.gz,reverse
