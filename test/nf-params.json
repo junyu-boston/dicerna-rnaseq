@@ -13,7 +13,7 @@
     "gtf": "\/data\/genomics\/Jun\/references\/Macaca_fascicularis.Macaca_fascicularis_5.0.102.gtf",
     "hisat2_index": "\/home\/fzhang@dicernadc.com\/genomes\/ensembl_mf5\/genome_mf5\/",
     "hisat_build_memory": "40",
-    "aligner": "hisat2",
+    "aligner": "star_rsem",
     "pseudo_aligner": "salmon",    
     "gencode": false,
     "save_reference": true,

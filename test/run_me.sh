@@ -1,5 +1,5 @@
 run_name=$1
-nextflow run https://github.com/junyu-boston/dicerna-rnaseq -r dicerna \
+nextflow run http://github.com/junyu-boston/dicerna-rnaseq.git -r dicerna \
 -name $run_name \
 -profile conda \
 --max_memory 50.GB \
