@@ -1,0 +1,15 @@
+/data/genomics/Jun/rnaseq/monkey_studies/20-NOVO-018_MTARC1/30-455687407/00_fastq/A09_R1_001.fastq.gz /data/genomics/Jun/rnaseq/monkey_studies/20-NOVO-018_MTARC1/30-455687407/00_fastq/A09_R2_001.fastq.gz
+
+ trim_galore --fastqc --cores 4 --paired --gzip A01_R1_001.fastq.gz A01_R2_001.fastq.gz
+
+
+
+
+
+
+ 
+ /data/genomics/Jun/rnaseq/monkey_studies/20-NOVO-018_MTARC1/30-455687407/00_fastq/A09_R1_001.fastq.gz /data/genomics/Jun/rnaseq/monkey_studies/20-NOVO-018_MTARC1/30-455687407/00_fastq/A09_R2_001.fastq.gz
+
+
+ cutadapt -j 4 --minimum-length=20 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCA -A AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT \
+    -o A01-trim_R1.fastq.gz -p A01-trim_R2.fastq.gz A01_R1_001.fastq.gz A01_R2_001.fastq.gz
